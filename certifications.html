@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>certifications</title>
+  <style>  body {
+      background-color:#31b7c6;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      text-align: center;
+      padding: 20px;
+      background-color: rgb(180, 83, 102);
+    }
+    header h1 {
+      color: rgb(15, 9, 100);
+      text-decoration: underline;
+      font-style: italic;
+      margin: 0;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      margin: 0;
+      background: #333;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    main h2 {
+      color: red;
+    }
+    
+    
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: rgb(72, 65, 60);
+      color: white;
+      margin-top: 20px;
+    }
+    /* Fullscreen overlay */
+    #loader {
+      position: fixed;
+      bottom: auto;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #31b7c6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    /* Spinner */
+    .spinner {
+      border: 8px solid #f3f3f3;
+      border-top: 8px solid #3498db;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+      
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    
+    </style><!-- Link to external CSS file -->
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>Here is shirshadip</h1>
+    <p><strong>Welcome to my page</strong></p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      
+      <li><a href="#about">about</a></li>
+      <li><a href="projects.html">projects</a></li>
+     
+      
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <body>
+  <div id="loader" >
+    <p style="color: lightyellow;">
+      
+    
+    <div class="spinner">
+      
+    </div>
+   
+  
+  
+  
+  </div>
+  <script>
+    // Wait until page fully loads
+    window.addEventListener("load", function(){
+      document.body.classList.add("loaded");
+    });
+
+  </script>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>© 2025, made by shirshadip</p>
+  </footer>
+
+</body>
+</html>
