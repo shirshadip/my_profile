@@ -173,3 +173,50 @@ nav ul li a:hover {
     }
   }
 }
+#web{
+  
+  #skill_web {
+    background-color: #f4a261;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+
+    #skill_web:hover {
+      background-color: #2a9d8f;
+    }
+  }ul {
+      list-style-type: circle; /* bullet type: disc, circle, square, none */
+      padding-left: 50px; /* space from left */
+      background-color: #6ef8c3; /* light gray background */
+      border: 2px solid #909090; /* border around list */
+      width: 200px;
+      padding: 15px;
+      border-radius: 12px;
+      #skill_tag {
+        background-color: #f4e21d;
+        color: rgb(244, 28, 28);
+        margin: 5px;
+        padding: 5px;
+        border-radius: 8px;
+      }
+      
+    }
+}
+#note{
+  p{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #f72585;
+    border-radius: 15px;
+    color: rgb(81, 4, 4);
+    background-color: antiquewhite;
+    border: 3px solid black;
+    box-shadow: 2px 2px 12px gray;
+  }
+  background-color: lightgreen;
+  border-radius: 25px;
+  padding: 20px;
+}
