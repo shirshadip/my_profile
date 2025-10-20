@@ -220,3 +220,52 @@ nav ul li a:hover {
   border-radius: 25px;
   padding: 20px;
 }
+#more_lang{
+  border-radius: 12px;
+  background-color: #f4e21d;
+  ul{
+    list-style-type: square; /* bullet type: disc, circle, square, none */
+    padding-left: 50px; /* space from left */
+    background-color: #6ef8c3; /* light gray background */
+    border: 2px solid #000000; /* border around list */
+    width: 200px;
+    padding: 15px;
+    border-radius: 12px;
+    padding: 50px;
+    li{
+      font-size: 20px;
+      box-shadow: 2px 2px 12px rgb(43, 37, 37);
+      margin: 5px;
+      border: 1px 2px 5px rgb(52, 43, 43);
+    }
+
+  }
+}
+#iot{
+  ul {
+      list-style-type: circle; /* bullet type: disc, circle, square, none */
+      padding-left: 50px; /* space from left */
+      background-color: #6ef8c3; /* light gray background */
+      border: 2px solid #000000; /* border around list */
+      width: 200px;
+      padding: 15px;
+      border-radius: 12px;
+      padding: 30px;
+      
+    }
+
+}
+#IT_tools{
+  ul {
+      list-style-type: circle; /* bullet type: disc, circle, square, none */
+      padding-left: 50px; /* space from left */
+      background-color: #6ef8c3; /* light gray background */
+      border: 2px solid #000000; /* border around list */
+      width: 200px;
+      padding: 15px;
+      border-radius: 12px;
+      padding: 30px;
+      
+    }
+
+}
